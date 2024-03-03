@@ -43,7 +43,7 @@ However as a ***bonus*** you can add the flag `-flavor=` to configure which flav
 member@loop$ md2html -if README.md -of
 ```
 
-results in README.html
+results in the content of `README.md` file to be converted to `README.html` file
 
 ### Example 2
 
@@ -51,7 +51,7 @@ results in README.html
 member@loop$ md2html -if README.md -of document.html
 ```
 
-results in README.md being converted to document.html
+results in `README.md` file being converted to `document.html` file
 
 ### Example 3
 
