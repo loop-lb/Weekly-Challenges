@@ -13,7 +13,7 @@ Our tool will have a few usecases and flags.
 
 ### Example 1
 
-```bash
+```console
 md2html -if README.md -of
 ```
 
@@ -21,7 +21,7 @@ results in README.html
 
 ### Example 2
 
-```bash
+```console
 md2html -if README.md -of document.html
 ```
 
@@ -29,7 +29,7 @@ results in README.md being converted to document.html
 
 ### Example 3
 
-```bash
+```console
 md2html -i "# Hello world"
 ```
 
