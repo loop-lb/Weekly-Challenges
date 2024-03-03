@@ -9,6 +9,8 @@ Our tool will have a few usecases and flags.
 3. `-of [{Optional} filename]` tells our tool to output the result html in a file,
     if no argument passed the html file will have the same name as the markdown file.
 
+The flavor of markdown we will be parsing is [github flavored markdown](https://github.github.com/gfm/) or (gfm).
+
 ## Example
 
 ### Example 1
@@ -22,7 +24,7 @@ results in README.html
 ### Example 2
 
 ```console
-mmember@loop$ md2html -if README.md -of document.html
+member@loop$ md2html -if README.md -of document.html
 ```
 
 results in README.md being converted to document.html
@@ -30,7 +32,7 @@ results in README.md being converted to document.html
 ### Example 3
 
 ```console
-mmember@loop$ md2html -i "# Hello world"
+member@loop$ md2html -i "# Hello world"
 ```
 
-prints to the terminal `"<html><body><h1>Hello world</h1></body></html>"`
+prints to the terminal `<html><body><h1>Hello world</h1></body></html>`
