@@ -70,7 +70,7 @@ prints to the terminal `<html><body><h1>Hello world</h1></body></html>`
 
 ## Submissions
 
-When you finish the tool, upload your project to github and send the link to it in our whatsapp group chat.
+When you finish the tool, upload your project to github and send us the link to it via our community whatsapp group chat.
 Then when our admins are free, they will review your code and check if it's correct, if so your solution will be chosen to represent the solution
 of this weeks challenge in the language you have chosen to solve it in.
 
