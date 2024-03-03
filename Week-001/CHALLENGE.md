@@ -22,7 +22,7 @@ results in README.html
 ### Example 2
 
 ```console
-md2html -if README.md -of document.html
+mmember@loop$ md2html -if README.md -of document.html
 ```
 
 results in README.md being converted to document.html
@@ -30,7 +30,7 @@ results in README.md being converted to document.html
 ### Example 3
 
 ```console
-md2html -i "# Hello world"
+mmember@loop$ md2html -i "# Hello world"
 ```
 
 prints to the terminal `"<html><body><h1>Hello world</h1></body></html>"`
