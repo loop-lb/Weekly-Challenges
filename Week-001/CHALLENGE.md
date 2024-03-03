@@ -14,7 +14,7 @@ Our tool will have a few usecases and flags.
 ### Example 1
 
 ```console
-md2html -if README.md -of
+member@loop$ md2html -if README.md -of
 ```
 
 results in README.html
