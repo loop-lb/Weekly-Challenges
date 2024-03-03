@@ -11,6 +11,8 @@ Our tool will have a few usecases and flags.
 
 The flavor of markdown we will be parsing is [github flavored markdown](https://github.github.com/gfm/) or (gfm).
 
+However as a ***bonus*** you can add the flag `-flavor=` to configure which flavor of markdown our tool will parse.
+
 ## Example
 
 ### Example 1
@@ -36,3 +38,17 @@ member@loop$ md2html -i "# Hello world"
 ```
 
 prints to the terminal `<html><body><h1>Hello world</h1></body></html>`
+
+## Bonuses
+
+- Add a `-flavor=` flag to specify which flavor of markdown to parse.
+- Write the tool in a functional programming language.
+- Use a [TDD](https://en.wikipedia.org/wiki/Test-driven_development#:~:text=Test%20Driven%20Development%20(TDD)%20is,leading%20to%20more%20robust%20software.) approach when writing your project.
+
+## Submissions
+
+When you finish the tool, send us a
+
+## Useful links to help you with this challenge
+
+- [Crafting interpreters (The parsing chapter) (recursive descent)](https://www.craftinginterpreters.com/parsing-expressions.html)
