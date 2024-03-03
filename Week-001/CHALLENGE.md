@@ -20,9 +20,8 @@ Our tool will have a few usecases and flags.
 3. `-of [{Optional} filename]` tells our tool to output the result html in a file,
     if no argument passed the html file will have the same name as the markdown file.
 
-The flavor of markdown we will be parsing is [github flavored markdown](https://github.github.com/gfm/) or (gfm).
+Our tool will only supports the following markdown features:
 
-Our tool supports the following markdown features:
 - bold text
 - italic text
 - bold italic text
@@ -31,6 +30,8 @@ Our tool supports the following markdown features:
 - ordered lists
 - links
 - images
+
+The flavor of markdown we will be parsing is [github flavored markdown](https://github.github.com/gfm/) or (gfm).
 
 However as a ***bonus*** you can add the flag `-flavor=` to configure which flavor of markdown our tool will parse.
 
